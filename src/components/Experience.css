@@ -1,0 +1,11 @@
+.leftside {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    text-align: right;
+  }
+
+  #company-logo{
+    width: 90px;
+    
+  }

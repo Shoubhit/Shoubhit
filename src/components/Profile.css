@@ -1,0 +1,17 @@
+:root{
+    --main-bg-color: #1dd8789b
+}
+.profile-image{
+    margin: 100px 0px 80px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    transition: 0.6s;
+}
+
+.profile-image:hover{
+    border-color: var(--main-bg-color);
+}

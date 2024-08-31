@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
+  padding: 0rem;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  --main-bg-color: #1dd8789b;
+  --alt-bg-color: #021130;
+
 }
 
 .logo {
@@ -17,6 +19,39 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+#info {
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+#green{
+  color: var(--main-bg-color);
+}
+
+.colored{
+  background-color: var(--alt-bg-color);
+  color: white;
+  
+}
+
+.section{
+  margin-top: 50px;
+  padding-top: 100px;
+}
+.section-title{
+  font-size: 2.5em;
+  margin-bottom: 100px;
+}
+.vline {
+  height: 105%;
+  width: 1px;
+  border: none;
+  border-right: solid 0.5px white;
+  z-index: 10;
+  padding-bottom: 5%;
+}
+
+
 
 @keyframes logo-spin {
   from {
@@ -33,10 +68,4 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
