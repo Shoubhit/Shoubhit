@@ -46,9 +46,13 @@
   height: 105%;
   width: 1px;
   border: none;
-  border-right: solid 0.5px white;
+  border-right: solid 3px var(--main-bg-color);
   z-index: 10;
   padding-bottom: 5%;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 

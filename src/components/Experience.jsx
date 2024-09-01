@@ -5,9 +5,15 @@ function Experience(props){
     return(
         <>
         <div className="logo-descr">
-            <img id="company-logo" src={props.image}/>
-            <p class="leftside" id='role'>{props.role}</p>
-            <p class="leftside" id='date'>{props.date}</p>
+            <table>
+                <tr>
+                    <td rowSpan={2}><img id="company-logo" src={props.image}/></td>
+                    <td className="center"><h2 className="leftside" id='role'>{props.role}</h2></td>
+                </tr>
+                <tr>
+                    <td className="center"><p className="leftside" id='date'>{props.date}</p></td>
+                </tr>
+            </table>
         </div>
         </>
     )

@@ -1,0 +1,19 @@
+:root {
+    --main-color: #1cca7f;
+}
+.messages{
+    color: var(--main-color);
+    margin: 3em 3em;
+}
+
+#userInput{
+    margin-bottom: 3em;
+    width: 100em;
+    height: 5em;
+    background-color: aliceblue;
+    padding: 1em 1em;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+

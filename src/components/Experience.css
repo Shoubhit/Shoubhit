@@ -2,10 +2,14 @@
     display: inline-block;
     vertical-align: top;
     width: 500px;
-    text-align: right;
+    text-align: center;
   }
 
   #company-logo{
-    width: 90px;
-    
+    width: 150px;
   }
+
+  .logo-descr{
+    margin: 3em auto;
+  }
+

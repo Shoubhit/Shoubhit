@@ -1,12 +1,19 @@
 import React from "react"
-import './Experience.css'
+import './Description.css'
 
 function Description(props){
     return(
         <>
-        <div className="logo-descr">
-            <h1 id='company'>{props.company}</h1>
-            <p id='descr'>{props.descr}</p>
+        <div className="company-descr">
+            <table>
+                <tr>
+                    <td><h2 id='company'>{props.company}</h2></td>
+                </tr>
+                <tr>
+                   <td><p id='descr'>{props.descr}</p></td>
+                </tr>
+
+            </table>
         </div>
         </>
     )
