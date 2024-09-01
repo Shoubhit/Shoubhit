@@ -1,0 +1,19 @@
+.container {
+    width: 60%;
+    background-color: #ddd;
+    margin: auto;
+    border-radius: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .skills {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    width: 0%; /* Initially set to 0% */
+  }
+  

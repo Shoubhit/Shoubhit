@@ -46,7 +46,6 @@ const ChatBox = () => {
   };
 
   const displayedMessage = useTypewriter(assistantMessage, 50); // Use the typewriter effect
-
   return (
     <div className="chat-box">
       <div className="messages">
