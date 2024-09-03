@@ -2,7 +2,7 @@
     --main-bg-color: #1dd8789b
 }
 .profile-image{
-    margin: 100px 0px 80px;
+    margin: 100px 0px 20px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -14,4 +14,9 @@
 
 .profile-image:hover{
     border-color: var(--main-bg-color);
+}
+
+.social-image{
+    width: 30px;
+    margin: 0 5px 5px;
 }

@@ -14,6 +14,9 @@ import UMDLogo from './assets/umdLogo.png'
 import BSLogo from './assets/bs-logo.png'
 import DCLogo from './assets/dsLogo.jfif'
 import cancerImg from './assets/cancerProject.png'
+import secureAPI from './assets/secureAPI.png'
+import shellac from './assets/shellac.png'
+import pathfinder from './assets/pathfinderProj.gif'
 
 function App() {
   const ItJobDescr = "Managed over 1,000 service tickets using ServiceNow, providing remote technical support for software and hardware issues. Trained new employees in troubleshooting and customer support, ensuring efficient problem resolution."
@@ -23,6 +26,7 @@ function App() {
   const proj1 = "Created a web application using Python and PyTorch that classifies chest cancer from CT scans with 80% accuracy. Deployed the application on HuggingFace and Render, making it accessible online."
   const proj2 = "Built a RESTful API in Go for network analysis and security scanning. Integrated SQLite for backend development, ensuring efficient data management, and provided comprehensive network device information."
   const proj3 = "Developed a command-line shell in C, demonstrating a deep understanding of Linux and systems programming. Implemented features like background jobs and input/output redirection to enhance the shell's functionality."
+  const proj4 = "The Pathfindertool project is a Python-based visualization of the A* pathfinding algorithm using Pygame, showcasing how the algorithm navigates a grid to find the shortest path between two points while avoiding obstacles."
   return (
     <>
      <div id='outer-div'>
@@ -74,10 +78,12 @@ function App() {
       </div>
       <div className='section colored' id="projects">
         <h1 className="section-title">Projects</h1>
-        <Project title="Chest Cancer Classifier" image={cancerImg} descr={proj1}/>
-        <Project title="Security Api" descr={proj2}/>
-        <Project title="Shellac" descr={proj3}/>
-
+        <div id = "project-container">
+          <Project title="Chest Cancer Classifier" image={cancerImg} descr={proj1}/>
+          <Project title="Security Api" image={secureAPI} descr={proj2}/>
+          <Project title="Shellac" image={shellac} descr={proj3}/>
+          <Project title="A* Algorithm Visualizer" image={pathfinder} descr={proj4}/>
+        </div>
       </div>
       <div className='section' id='skills'>
         <h1 className="section-title">Technical Skills</h1>
@@ -96,9 +102,7 @@ function App() {
           <br></br>
           <br></br>
         </div>
-        <div className='section'>
-
-        </div>
+        <footer>© 2024 Shoubhit Babu. All rights reserved.</footer>
       </div>
     </>
   )

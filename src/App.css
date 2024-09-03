@@ -3,6 +3,7 @@
   margin: 0 auto;
   text-align: center;
   --main-bg-color: #1dd8789b;
+  --main-bg-color-NavBar: #1dd877ea;
   --alt-bg-color: #021130;
 
 }
@@ -69,6 +70,11 @@
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
+#project-container{
+  display: flex;
+  justify-content:space-evenly;
+  padding: 2em;
+}
 /* Container for skill bars */
 .container {
   width: 60%; /* Full width */
