@@ -8,7 +8,7 @@ const ChatBox = () => {
   const [userInput, setUserInput] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const client = new Groq({ apiKey: "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", dangerouslyAllowBrowser: true });
+  const client = new Groq({ apiKey: "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", dangerouslyAllowBrowser: true });
 
   const systemPrompt = {
     role: 'system',
